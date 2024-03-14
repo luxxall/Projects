@@ -1,0 +1,3 @@
+1. I would characterize Audio Aura as energic, high rhythm but rather neutral. It may suggest more dance orienten music but it is only based on averages.
+2. Based on energy, danceability and valency Audio Aura may be very good idea but, In my opinion, I may be improved by for example adding comparison of those values changes over time.
+Then, some trends may occur for particular user. Additionally, taking genres or artists into consideration may also more personalize Audio Aura and propose even better suggestions.
