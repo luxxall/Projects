@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<!-- Thanks to: https://fullcircledesign.org, https://www.w3schools.com, https://nicepage.com -->
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <meta property="og:title" content="My way to IT">
+        <meta property="og:description" content="My journey into IT world.">
+        <meta property="og:image" content="mini.png">
+        <link href="/sites/css/projects_css.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/x-icon" href="/images/ico.jpg">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <title>My way to IT</title>
+    </head>
+
+    <body class="bg">
+
+        <ul class="topnav">
+            <li class="logo"><a href="/index.html"><img id="logo" src="/images/logo_new.png"></a></li>
+            <li class="menu"><a href="/sites/contact.html">Contact</a></li>
+            <li class="menu"><a href="/sites/about.html">About me</a></li>
+            <li class="menu"><a href="/sites/projects.html">Projects</a></li>
+            <li class="menu"><a href="/sites/journey.html">Journey</a></li>
+        </ul>
+
+        <div class="container">
+            <div class="header"">
+                <h1 class="headerTxt">My projects</h1><hr class="line">
+                <p class="headerTxt2">Check out my projects below.</p>
+                <img class="arrow" src="/images/arrow.png" alt="ARROW">
+            </div>
+        </div>
+        
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item">
+              <a class="nav-link" id="pills-python-tab" data-toggle="pill" href="#pills-python" role="tab" aria-controls="pills-python" aria-selected="true"><span class="name">Python</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-c-tab" data-toggle="pill" href="#pills-c" role="tab" aria-controls="pills-c" aria-selected="false"><span class="name">C</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-htmlcss-tab" data-toggle="pill" href="#pills-htmlcss" role="tab" aria-controls="pills-htmlcss" aria-selected="false"><span class="name">HTML/CSS</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-sql-tab" data-toggle="pill" href="#pills-sql" role="tab" aria-controls="pills-sql" aria-selected="false"><span class="name">SQL</span></a>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-flask-tab" data-toggle="pill" href="#pills-flask" role="tab" aria-controls="pills-flask" aria-selected="false"><span class="name">Flask</span></a>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade" id="pills-python" role="tabpanel" aria-labelledby="pills-python-tab">
+              <ul class="list">
+                <li class="list2">
+                    <h2>Colour inversion</h2>
+                    <p class="listTxt appear2">
+                      This code i had to write to simply invert colours of images I had to use on my website.
+                      I could use Photoshop, Gimp or any website app to do so, but I decided to do it myself to make it
+                      as simple as it could be.
+                    </p>
+                    <figure class="listFigure appear2">
+                      <button class="listButton"><a class="linkMore" href="https://github.com/luxxall/Projects/blob/main/Python/invert.py" target="_blank">CHECK CODE</a></button>
+                    </figure>
+                </li>
+                <li class="list2">
+                    <h2 class="appear2">Readability</h2>
+                    <p class="listTxt appear2">
+                      A program that first asks the user to type in some text, and then outputs the grade level for the text, according to the Coleman-Liau formula.
+                    </p>
+                    <figure class="listFigure appear2">
+                      <button class="listButton"><a class="linkMore" href="https://github.com/luxxall/Projects/blob/main/Python/readability.py" target="_blank">CHECK CODE</a></button>
+                  </figure>
+                </li>
+                <li class="list2">
+                    <h2 class="appear2">Cash</h2>
+                    <p class="listTxt appear2">
+                      This is a program that asks the user how much change is owed and then spits out the minimum number of coins with which said change can be made. 
+                    </p>
+                    <figure class="listFigure appear2">
+                      <button class="listButton"><a class="linkMore" href="https://github.com/luxxall/Projects/blob/main/Python/cash.py" target="_blank">CHECK CODE</a></button>
+                    </figure>
+                </li>
+                <li class="list2">
+                    <h2 class="appear2">DNA</h2>
+                    <p class="listTxt appear2">
+                      That's a  program that will take a sequence of DNA and a CSV file containing STR counts for a list of individuals and then output to whom the DNA (most likely) belongs.
+                      It was written as a part of CS50 course.
+                    </p>
+                    <figure class="listFigure appear2">
+                      <button class="listButton"><a class="linkMore" href="https://github.com/luxxall/Projects/tree/main/Python/DNA" target="_blank">CHECK CODE</a></button>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-c" role="tabpanel" aria-labelledby="pills-c-tab">
+              <ul class="list">
+                <li class="list2">
+                  <h2>Text game</h2>
+                  <p class="listTxt appear2">
+                    First game I tryed to code with C++. This is just a simple adventure text game, not even finished because during development
+                    I started CS50 course.
+                  </p>
+                  <figure class="listFigure appear2">
+                    <button class="listButton"><a class="linkMore" href="https://github.com/luxxall/Projects/blob/main/C%2B%2B/text_game.cpp" target="_blank">CHECK CODE</a></button>
+                  </figure>
+              </li>
+              <li class="list2">
+                <h2>Substitution</h2>
+                <p class="listTxt appear2">
+                  User enters a key which is a 26 characters and then a text to cipher. Program substitutes letters from key to text and outputs 
+                  ciphered text.
+                </p>
+                <figure class="listFigure appear2">
+                  <button class="listButton"><a class="linkMore" href="https://github.com/luxxall/Projects/blob/main/C/substitution.c" target="_blank">CHECK CODE</a></button>
+                </figure>
+            </li>
+            <li class="list2">
+              <h2>Volume</h2>
+              <p class="listTxt appear2">
+                Program reads a .wav file and increases its volume. After that outputs new file.
+              </p>
+              <figure class="listFigure appear2">
+                <button class="listButton"><a class="linkMore" href="https://github.com/luxxall/Projects/blob/main/C/volume.c" target="_blank">CHECK CODE</a></button>
+              </figure>
+          </li>
+          <li class="list2">
+            <h2>Filters</h2>
+            <p class="listTxt appear2">
+              This reads images from folder and then user types which filter to use. Program outputs new file after changes.
+            </p>
+            <figure class="listFigure appear2">
+              <button class="listButton"><a class="linkMore" href="https://github.com/luxxall/Projects/blob/main/C/helpers.c" target="_blank">CHECK CODE</a></button>
+            </figure>
+        </li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-htmlcss" role="tabpanel" aria-labelledby="pills-htmlcss-tab">
+              <ul class="list">
+                <li class="list2">
+                  <h2>Website 1.0</h2>
+                  <p class="listTxt appear2">
+                    This is first version of this website. I was really just learing how to use HTML and CSS. After some time I decided to 
+                    redesing this project and use this as a base.
+                  </p>
+                  <figure class="listFigure appear2">
+                    <button class="listButton"><a class="linkMore" href="https://github.com/luxxall/Projects/tree/main/HTML%3ACSS/website-first-ver" target="_blank">CHECK CODE</a></button>
+                  </figure>
+              </li>
+              <li class="list2">
+                <h2>Website 2.0</h2>
+                <p class="listTxt2 appear2">
+                  Surce code of my current website.
+                </p>
+                <figure class="listFigure appear2">
+                  <button class="listButton"><a class="linkMore" href="https://github.com/luxxall/Projects/tree/main/HTML%3ACSS/website-final" target="_blank">CHECK CODE</a></button>
+                </figure>
+            </li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-sql" role="tabpanel" aria-labelledby="pills-sql-tab">
+              <ul class="list">
+                <li class="list2">
+                  <h2>Fiftyville</h2>
+                  <p class="listTxt appear2">
+                    SQL game where my job was to find some specific data in SQL files and on their basis draw specific conclusions.
+                    Really enjoing experience and allowing to practice SQL skills. 
+                  </p>
+                  <figure class="listFigure appear2">
+                    <button class="listButton"><a class="linkMore" href="https://github.com/luxxall/Projects/tree/main/SQL/Fiftyville" target="_blank">CHECK CODE</a></button>
+                  </figure>
+              </li>
+              <li class="list2">
+                <h2>Movies</h2>
+                <p class="listTxt appear2">
+                  I've been given with several SQL files with IMDB database. I was asked some questions and I had to filter SQL data to find 
+                  required information.  
+                </p>
+                <figure class="listFigure appear2">
+                  <button class="listButton"><a class="linkMore" href="https://github.com/luxxall/Projects/tree/main/SQL/Movies" target="_blank">CHECK CODE</a></button>
+                </figure>
+            </li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-flask" role="tabpanel" aria-labelledby="pills-flask-tab">
+              <ul class="list">
+                <li class="list2">
+                  <h2>Hello</h2>
+                  <p class="listTxt2 appear2">
+                    First Flask project. Just to start with it.  
+                  </p>
+                  <figure class="listFigure appear2">
+                    <button class="listButton"><a class="linkMore" href="https://github.com/luxxall/Projects/tree/main/Flask/hello" target="_blank">CHECK CODE</a></button>
+                  </figure>
+              </li>
+              <li class="list2">
+                <h2>Register</h2>
+                <p class="listTxt2 appear2">
+                  Very simple project with candidates registration. 
+                </p>
+                <figure class="listFigure appear2">
+                  <button class="listButton"><a class="linkMore" href="https://github.com/luxxall/Projects/tree/main/Flask/register" target="_blank">CHECK CODE</a></button>
+                </figure>
+            </li>
+              </ul>
+            </div>            
+          </div>
+        </div>
+          <div class="footer">
+            <div class="footerText">
+                <p>I would like to stay in contact with you! Please follow me on social media so we
+                    can keep in touch!
+                </p>
+            </div>
+            <div class="socials">
+                <a class="socialsA" target="_blank" href="https://www.facebook.com/lukas.art/">
+                    <img class="socialsImg" src="/images/new_fb.png" alt="fb""></a>
+                <a class="socialsA" target="_blank" href="https://www.instagram.com/lukaart/">
+                    <img class="socialsImg" src="/images/new_insta.png" alt="insta"></a>
+                <a class="socialsA" target="_blank" href="https://github.com/luxxall">
+                    <img class="socialsImg" src="/images/new_git.png" alt="git"></a>
+                <a class="socialsA" target="_blank" href="http://www.linkedin.com/in/lukasz-sliwinski-734a1b215">
+                    <img class="socialsImg" src="/images/new_in.png" alt="in"></a>
+                <a class="socialsA" class="x_link" href="https://twitter.com/lukaarte" target="_blank">
+                    <img class="socialsImg" id="tele" src="/images/x.jpg" alt="img"></a>
+            </div>
+            <div class="last">
+                <p>
+                    Created by Lukasz Sliwinski. Website design inspiration from nicepage.com<br>
+                    <a class="lastLink" href="//www.freepik.com" target="_blank">Images by fullvector / Freepik</a>
+                </p>
+                
+            </div>
+        </div>
+
+        <script src="../scripts.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
